@@ -27,9 +27,8 @@ Topic‑wise Python solutions:
 
 ### 🛠 Languages I Use
 
-* Python - Advanced level
-* C++ - Intermediate
-* Java - Beginner
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Hemalatha1106&repo=DSA-with-Python)
+
 
 ---
 
