@@ -15,8 +15,6 @@ Topic‑wise Python solutions:
 * STRINGS
 * Simulation
 
-(Last two loose files are ignored.)
-
 ---
 
 ### ⭐ Purpose of This Repo
