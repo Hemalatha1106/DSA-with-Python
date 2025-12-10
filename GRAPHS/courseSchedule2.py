@@ -21,4 +21,4 @@ if len(topo) != numCourses:
     print(False)
 else:
     print(True)   
-                          
+print(topo[::-1])                           
