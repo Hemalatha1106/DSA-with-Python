@@ -8,7 +8,7 @@ def max_heap(arr,n,i):
         largest = right_child
     if largest != i:
         arr[largest], arr[i] = arr[i], arr[largest]
-        max_heap(arr,n,largest)
+        max_heap(arr,n,largest) 
 def min_heap(arr,n,i):
     smallest = i
     left_child = 2*i+1
