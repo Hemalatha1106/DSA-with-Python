@@ -1,0 +1,21 @@
+nums=[10,9,2,5,3,7,101,18]
+n=len(nums)
+dp=[1]*n
+parent=[-1]*n
+lst_ind=0
+mx=1
+for ind in range(n):
+    for prev in range(ind):
+        if nums[ind]>nums[prev] and dp[ind]<1+dp[prev]:
+            dp[ind]=max(dp[ind],1+dp[prev])
+            parent[ind]=prev
+    if dp[ind]>mx:
+        mx=dp[ind]
+        lst_ind=ind
+lis=[]
+while lst_ind!=-1:
+    lis.append(nums[lst_ind])
+    lst_ind=parent[lst_ind]
+lis.reverse()
+print(lis)
+
